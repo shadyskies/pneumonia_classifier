@@ -15,7 +15,7 @@ from tensorflow.keras.preprocessing import image
 # Some utilites
 import numpy as np
 from util import base64_to_pil
-import cv2
+from cv2 import imread,resize
 
 app = Flask(__name__)
 
@@ -25,8 +25,8 @@ model = load_model("./models/pn_model.h5")
 
 
 def model_predict(img, model):
-    x = cv2.imread("./uploads1/image.png", cv2.IMREAD_GRAYSCALE)
-    x = cv2.resize(x, (150,150))
+    x = imread("./uploads1/image.png", cv2.IMREAD_GRAYSCALE)
+    x = resize(x, (150,150))
     x = np.array(x)
     x = x / 255
     x = x.reshape(-1,150,150,1)
