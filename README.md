@@ -1,13 +1,13 @@
 <h1 align ='center> PNEUMONIA CLASSIFIER </h1>
 <div align = 'center'>
 
-<img src = 'https://img.freepik.com/free-vector/lungs_115990-362.jpg?size=626&ext=jpg'>
+<img src = 'https://img.freepik.com/free-vector/lungs_115990-362.jpg?size=626&ext=jpg' width = 225px, height = 225px>
 
 <br>
 
 [![](https://img.shields.io/badge/Made_with-Flask-red?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com/en/1.1.x/)
 [![](https://img.shields.io/badge/Made_with-Python3-red?style=for-the-badge&logo=python)](https://www.python.org/ "Python3")
-![](https://img.shields.io/badge/Deployed_on-Heroku-red?style=for-the-badge&logo=heroku)](https://www.heroku.com/  "Heroku")
+[![](https://img.shields.io/badge/Deployed_on-Heroku-red?style=for-the-badge&logo=heroku)](https://www.heroku.com/  "Heroku")
 
 <br>
 
