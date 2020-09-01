@@ -1,7 +1,8 @@
-<h1 align ='center> PNEUMONIA CLASSIFIER </h1>
+<h1 align ='center'> PNEUMONIA CLASSIFIER </h1>
+
 <div align = 'center'>
 
-<img src = 'https://img.freepik.com/free-vector/lungs_115990-362.jpg?size=626&ext=jpg' width = 225px, height = 225px>
+<img src = 'https://img.freepik.com/free-vector/lungs_115990-362.jpg?size=626&ext=jpg' width = 400px/>
 
 <br>
 
