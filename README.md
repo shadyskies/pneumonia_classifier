@@ -17,5 +17,16 @@
 <b>Personal Project </b>
 
 <h2>About:</h2>
-Personal deep learning project based on convolution neural networks learnt during the quarantine period. Used a kaggle dataset containing >5000 images to train a model and achieved 0.83 recall, 0.91 precision and 0.87 f1-score. Learning rate reduction is used so as to improve training when learning rate stagnates. This project is made in collaboration with Naman Shah. The model is deployed on <strong>Heroku</strong> and the app can be found <a href="https://pnclassify.herokuapp.com/">here.</a>
-A screenshot is attached below.
+This is a project based on Convolution Neural Networks made using Tensorfow. The model is trained on >5000 images obtained from a Kaggle dataset available <a href = 'https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia'>here</a>. It makes use of MaxPooling and BatchNormalization layers to finally result in a model that has 91% precision and 87% f1-score.
+<br>
+
+<h2 align = 'center'>Tech stacks used</h2>
+Backend: Flask and deployed on Heroku
+frontend: HTML, CSS, JS, Bootstrap
+Model: Tensorflow, Python, cv2
+<br>
+<strong>The app can be found <a href ='https://pnclassify.herokuapp.com/'>here</a></strong>
+<br>
+Following are the screenshots of the deployed website
+<img src = "1.png" width = 900px/>
+<img src = "2.png" width = 900px/>
